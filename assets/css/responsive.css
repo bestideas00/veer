@@ -109,17 +109,14 @@
     .about_part .text_con p {
         width: auto;
     }
-    .service_part .item {
-        padding: 15px 0 15px 10px;
+    .service_part .item .text p {
+        width: auto;
     }
-    .service_part .item .text {
-        margin: 0 0 0 20px;
+    .work_part .img_con .overlay h2 {
+        margin: 172px 0 0 0;
     }
     .counter_part .count {
         padding: 25px 0;
-    }
-    .work_part .img_con .overlay h2 {
-        margin: 100px 0 0 0;
     }
     .counter_part .left {
         margin: 0;
@@ -160,5 +157,175 @@
     }
     footer .contact .img img {
         margin: 0 20px 30px 0;
+    }
+}
+@media (min-width : 768px) and (max-width : 991.98px) {
+    nav {
+        text-align: center;
+    }
+    .navbar {
+        --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.0);
+        --bs-navbar-toggler-focus-width: 0.0rem;
+    }
+    nav i {
+        color: #000;
+        border: none;
+    }
+    nav ul li {
+        margin: 10px 0px 10px 0;
+    }
+    .banner_part {
+        padding: 288px 0;
+    }
+    .banner_part .overlay h1 {
+        font-size: 37px;
+        margin: 236px 0 0 0;
+    }
+    .about_part .img_con img {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        width: 100%;
+    }
+    .about_part .text_con p {
+        width: auto;
+    }
+    .service_part .item .text p {
+        width: auto;
+    }
+    .work_part .img_con .overlay h2 {
+        margin: 113px 0 0 0;
+    }
+    .counter_part .count {
+        padding: 25px 0;
+    }
+    .counter_part .left {
+        margin: 0;
+    }
+    .counter_part .right {
+        margin: 0;
+    }
+    .blog_part .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .blog_part .details h3 {
+        margin: 10px 0 35px 0;
+    }
+    .blog_part {
+        padding: 100px 0 80px 0;
+    }
+    .back_2_top {
+        right: 17px;
+    }
+    footer .logo {
+        margin: 60px 0 0 11px;
+    }
+    footer .contact .item {
+        margin: 0 0 0 45px;
+    }
+}
+@media (min-width : 992px) and (max-width : 1199.98px) {
+    .banner_part {
+        padding: 288px 0;
+    }
+    .about_part .img_con img {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        width: 100%;
+    }
+    .about_part .text_con {
+        margin: 0;
+    }
+    .about_part .text_con p {
+        width: auto;
+    }
+    .about_part .text_con .btn a {
+        margin: 11px 0 0 -13px;
+    }
+    .service_part .item {
+        padding: 9px;
+        border-radius: 10px;
+    }
+    .service_part .item .text {
+        margin: 8px 0 0 10px;
+    }
+    .work_part .img_con .overlay h2 {
+        margin: 96px 0 0 0;
+    }
+    .counter_part .count {
+        padding: 25px 0;
+    }
+    .counter_part .left {
+        margin: 0;
+    }
+    .counter_part .right {
+        margin: 0;
+    }
+    .blog_part .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .blog_part .details h3 {
+        margin: 10px 0 35px 0;
+    }
+    .blog_part {
+        padding: 100px 0 80px 0;
+    }
+    .back_2_top {
+        right: 17px;
+    }
+    footer .logo {
+        margin: 60px 0 0 50px;
+    }
+}
+@media (min-width : 1200px) and (max-width : 1400px) {
+    .banner_part {
+        padding: 288px 0;
+    }
+    .about_part .img_con img {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        width: 100%;
+    }
+    .about_part .text_con {
+        margin: 0;
+    }
+    .about_part .text_con p {
+        width: auto;
+    }
+    .about_part .text_con .btn a {
+        margin: 11px 0 0 -13px;
+    }
+    .service_part .item {
+        padding: 9px;
+        border-radius: 10px;
+    }
+    .service_part .item .text {
+        margin: 8px 0 0 10px;
+    }
+    .work_part .img_con .overlay h2 {
+        margin: 96px 0 0 0;
+    }
+    .counter_part .count {
+        padding: 25px 0;
+    }
+    .counter_part .left {
+        margin: 0;
+    }
+    .counter_part .right {
+        margin: 0;
+    }
+    .blog_part .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .blog_part .details h3 {
+        margin: 10px 0 35px 0;
+    }
+    .blog_part {
+        padding: 100px 0 80px 0;
+    }
+    .back_2_top {
+        right: 17px;
+    }
+    footer .logo {
+        margin: 60px 0 0 50px;
     }
 }
