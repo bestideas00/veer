@@ -8,31 +8,32 @@
   <link rel="stylesheet" href="./assets/css/all.min.css">
   <link rel="stylesheet" href="./assets/css/venobox.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 </head>
 <body>
 <!-- nav start -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg menu">
   <div class="container">
     <a class="navbar-brand" href="#"> <img src="./assets/images/logo.png" alt="logo"> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fa-solid fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#banner">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">about</a>
+          <a class="nav-link" href="#about">about</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">portfolio</a>
+          <a class="nav-link" href="#service">service</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">blog</a>
+          <a class="nav-link" href="#blog">blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
+          <a class="nav-link" href="#contact">contact</a>
         </li>                       
       </ul>
     </div>
@@ -40,7 +41,7 @@
 </nav>
 <!-- nav end -->
 <!-- banner start -->
-<div class="banner_part text-center text-uppercase">
+<div class="banner_part text-center text-uppercase" id="banner">
   <div class="overlay">
     <div class="container">
       <div class="banner_con_main">
@@ -54,7 +55,7 @@
 </div>
 <!-- banner end -->
 <!-- about start -->
-<div class="about_part">
+<div class="about_part" id="about">
   <div class="container">
     <div class="row">
       <div class="col-lg-6">
@@ -76,7 +77,7 @@
 </div>
 <!-- about end -->
 <!-- service start -->
-<div class="service_part text-center">
+<div class="service_part text-center" id="service">
   <div class="container">
     <div class="title">
       <h2>My Services</h2>
@@ -194,9 +195,9 @@
 <div class="counter_part text-center text-light">
   <div class="container">
     <div class="row">
-      <div class="col-4">
+      <div class="col-lg-4">
         <div class="left">
-          <div class="count">
+          <div class="deta">
             <div class="img">
               <img src="./assets/images/counter-1.png" alt="counter-1">
             </div>
@@ -205,8 +206,8 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
-        <div class="count">
+      <div class="col-lg-4">
+        <div class="deta">
           <div class="img">
             <img src="./assets/images/counter-2.png" alt="counter-2">
           </div>
@@ -214,9 +215,9 @@
           <p>Happy Clients</p>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-lg-4">
         <div class="right">
-          <div class="count">
+          <div class="deta">
             <div class="img">
               <img src="./assets/images/counter-3.png" alt="counter-3">
             </div>
@@ -230,7 +231,7 @@
 </div>
 <!-- counter-up end -->
 <!-- blog start -->
- <div class="blog_part">
+ <div class="blog_part" id="blog">
   <div class="container">
     <div class="title">
       <h2>Read Our Blog</h2>
@@ -282,7 +283,7 @@
  <div class="work_want text-light">
   <div class="container">
     <div class="row">
-      <div class="work_want_con d-flex justify-content-center">
+      <div class="work_want_con">
         <h2>Want to work with us? </h2><a class="btn btn-primary" href="#">start Now</a>
       </div>
     </div>
@@ -290,8 +291,13 @@
   </div>
  </div>
 <!-- want_work end -->
+<!-- back_2_top start -->
+<div class="back_2_top">
+  <i class="fa-solid fa-arrow-up"></i>
+</div>
+<!-- back_2_top end -->
 <!-- footer start -->
- <footer>
+ <footer id="contact">
   <div class="container">
     <div class="footer_con_main text-light">
       <div class="row">
@@ -307,7 +313,7 @@
               <div class="img">
                 <img src="./assets/images/footer_icon-1.png" alt="footer_icon-1">
               </div>
-              <div class="adders">
+              <div class="addres">
                 <p>13/2 Elizabeth Street Melbourne</p>
                 <p>VIC 3000, Australia</p>
               </div>
@@ -325,15 +331,12 @@
         </div>
       </div>
       <div class="pre_tooter text-center">
-        <p>Copyright <i class="fa-regular fa-copyright"></i> 2019 All Rights Reserved. Designed By B.Mahdi Time</p>
+        <p>Copyright <i class="fa-regular fa-copyright"></i> 2024 All Rights Reserved. Designed By B.Mahdi Time</p>
       </div>
     </div>
   </div>
  </footer>
 <!-- footer end -->
-
-
-
 
 
 

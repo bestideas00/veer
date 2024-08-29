@@ -8,7 +8,9 @@ ul,ol {
     list-style: none;
 }
 a {
+    display: block;
     text-decoration: none;
+    color: #fff;
 }
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -22,23 +24,36 @@ h1,h2,h3,h4,h5,h6,p {
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
+html,body {
+    overflow-x: hidden;
+}
 /* nav start */
 nav {
     background: #fff;
+    position: fixed !important;
+    width: 100%;
+    z-index: 9999;
+    transition: .4s;
+    box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.75);
 }
 nav ul li {
     margin: 10px 30px 10px 0;
 }
 nav ul li a {
-    font-size: 16px;
-    font-weight: 800;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
-    color: #0e1424 !important;
+    color: #0e1424;
     transition: .4s;
 }
 nav ul li a:hover {
     color: #31d7ce !important;
 }
+/* .fixed_menu {
+    background: #000;
+    color: #fff;
+} */
 /* nav end */
 /* banner start */
 .banner_part {
@@ -177,15 +192,15 @@ nav ul li a:hover {
     background: url(../images/counter_img.png) no-repeat center;
     background-size: cover;
 }
-.counter_part .count {
+.counter_part .deta {
     padding: 50px 0;
 }
-.counter_part .count h2 {
+.counter_part .deta h2 {
     font-size: 30px;
     font-weight: 700;
     margin: 10px 0;
 }
-.counter_part .count p {
+.counter_part .deta p {
     font-size: 15px;
     font-weight: 400;
     color: #cccccd;
@@ -230,6 +245,8 @@ nav ul li a:hover {
     background: #50d18d;
 }
 .work_want .work_want_con {
+    display: flex;
+    justify-content: center;
     padding: 50px 0;
 }
 .work_want .work_want_con h2 {
@@ -247,13 +264,27 @@ nav ul li a:hover {
     margin: 0 0 0 10px;
 }
 /* want_work end */
+/* back_2_top start */
+.back_2_top {
+    width: 50px;
+    height: 50px;
+    background: #31d7ce;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    color: #000;
+}
+/* back_2_top end */
 /* footer start */
 footer {
     padding: 84px 0 0 0;
     background: #000415;
 }
 footer .logo {
-	margin: 40px 0 0 316px;
+	margin: 60px 0 0 316px;
 }
 footer .logo h3 {
     font-size: 18px;
@@ -262,10 +293,11 @@ footer .logo h3 {
     margin: 10px 0 0 0;
 }
 footer .contact {
+    padding: 20px 0 30px 0;
     border-left: 2px solid #393939;
 }
 footer .contact .item {
-    padding: 0 0 20px 0;
+    padding: 20px 0 0 0;
     margin: 0 0 0 100px;
 }
 footer .contact .img img {
@@ -275,6 +307,6 @@ footer .contact .img img {
     font-size: 15px;
     font-weight: 400;
     color: #757576;
-    padding: 20px 0;
+    padding: 30px 0 20px 0;
 }
 /* footer end */

@@ -1,0 +1,164 @@
+@media (min-width : 320px) and (max-width : 575.98px) {
+    nav {
+        text-align: center;
+    }
+    .navbar {
+        --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.0);
+        --bs-navbar-toggler-focus-width: 0.0rem;
+    }
+    nav i {
+        color: #000;
+        border: none;
+    }
+    nav ul li {
+        margin: 10px 0px 10px 0;
+    }
+    .banner_part {
+        padding: 288px 0;
+    }
+    .banner_part .overlay h1 {
+        font-size: 37px;
+        margin: 236px 0 0 0;
+    }
+    .about_part .img_con img {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        width: 100%;
+    }
+    .about_part .text_con p {
+        width: auto;
+    }
+    .service_part .item {
+        padding: 15px 0 15px 10px;
+    }
+    .service_part .item .text {
+        margin: 0 0 0 20px;
+    }
+    .counter_part .count {
+        padding: 25px 0;
+    }
+    .work_part .img_con .overlay h2 {
+        margin: 100px 0 0 0;
+    }
+    .counter_part .left {
+        margin: 0;
+    }
+    .counter_part .right {
+        margin: 0;
+    }
+    .blog_part .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .blog_part .details h3 {
+        margin: 10px 0 35px 0;
+    }
+    .blog_part {
+        padding: 100px 0 80px 0;
+    }
+    .work_want .work_want_con {
+        display: block;
+        text-align: center;
+    }
+    .work_want .work_want_con a {
+        margin: 10px 0 0 10px;
+    }
+    .back_2_top {
+        right: 17px;
+    }
+    footer .logo {
+        margin: 0;
+    }
+    footer .contact {
+        padding: 20px 0 30px 0;
+        border-left: none;
+    }
+    footer .contact .item {
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    footer .contact .img img {
+        margin: 0 20px 30px 0;
+    }
+}
+@media (min-width : 576px) and (max-width : 767.98px) {
+    nav {
+        text-align: center;
+    }
+    .navbar {
+        --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.0);
+        --bs-navbar-toggler-focus-width: 0.0rem;
+    }
+    nav i {
+        color: #000;
+        border: none;
+    }
+    nav ul li {
+        margin: 10px 0px 10px 0;
+    }
+    .banner_part {
+        padding: 288px 0;
+    }
+    .banner_part .overlay h1 {
+        font-size: 37px;
+        margin: 236px 0 0 0;
+    }
+    .about_part .img_con img {
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        width: 100%;
+    }
+    .about_part .text_con p {
+        width: auto;
+    }
+    .service_part .item {
+        padding: 15px 0 15px 10px;
+    }
+    .service_part .item .text {
+        margin: 0 0 0 20px;
+    }
+    .counter_part .count {
+        padding: 25px 0;
+    }
+    .work_part .img_con .overlay h2 {
+        margin: 100px 0 0 0;
+    }
+    .counter_part .left {
+        margin: 0;
+    }
+    .counter_part .right {
+        margin: 0;
+    }
+    .blog_part .details p {
+        font-size: 14px;
+        width: auto;
+    }
+    .blog_part .details h3 {
+        margin: 10px 0 35px 0;
+    }
+    .blog_part {
+        padding: 100px 0 80px 0;
+    }
+    .work_want .work_want_con {
+        display: block;
+        text-align: center;
+    }
+    .work_want .work_want_con a {
+        margin: 10px 0 0 10px;
+    }
+    .back_2_top {
+        right: 17px;
+    }
+    footer .logo {
+        margin: 0;
+    }
+    footer .contact {
+        padding: 20px 0 30px 0;
+        border-left: none;
+    }
+    footer .contact .item {
+        padding: 20px 0 0 0;
+        margin: 0;
+    }
+    footer .contact .img img {
+        margin: 0 20px 30px 0;
+    }
+}
